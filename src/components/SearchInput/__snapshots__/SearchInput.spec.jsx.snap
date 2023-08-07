@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchInput /> should match snapshot 1`] = `
+<div>
+  <div
+    class="MuiFormControl-root MuiTextField-root text-input css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+      data-shrink="false"
+      for="outlined-basic"
+      id="outlined-basic-label"
+    >
+      Search
+    </label>
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+    >
+      <input
+        aria-invalid="false"
+        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputTypeSearch css-1g24dm6-MuiInputBase-input-MuiOutlinedInput-input"
+        id="outlined-basic"
+        placeholder="Type your search"
+        type="search"
+        value=""
+      />
+      <fieldset
+        aria-hidden="true"
+        class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          class="css-yjsfm1"
+        >
+          <span>
+            Search
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</div>
+`;

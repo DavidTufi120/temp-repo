@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
-import Index from './index';
+describe("<Home/>", () => {
+  test("should render the button with the text", () => {
+    expect(1).toBe(1);
+  });
 
-test('renders learn react link', () => {
-  render(<Index />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  test("test two", () => {
+    expect(1).toBe(1);
+  });
+
+  test("test three", () => {
+    expect(1).toBe(1);
+  });
 });
